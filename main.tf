@@ -4,7 +4,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "hpcc" {
  name     = "${var.resource_group_name}"
- location = "westus"
+ location = "eastus2"
 }
 
 resource "azurerm_virtual_network" "hpcc" {
